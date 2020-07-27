@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link rel="stylesheet" href="styles.css">
       <title>Task 1</title>
-       <div class="container">
+      <div class="container">
          <div class="row">
             <div class="col-xl col-lg col-md d-sm-none d-none d-lg-block d-xl-block d-md-block ">
                <select class="custom-select">
@@ -43,7 +43,7 @@
          <div class="container">
             <div class="row">
                <div class="col-xl-3 col-lg col-md d-sm-none d-none d-lg-block d-xl-block d-md-block " >
-                     <a href="index.html">
+                  <a href="index.html">
                   <img src="https://business-review.eu/wp-content/uploads/2018/02/aliexpress-logo.jpeg"width="150px"height="100px"></a>
                </div>
                <div class="col-5 d d-lg-block style=" style="
@@ -147,8 +147,9 @@
          </ul>
          <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-               <a  href="shop.html" 
-                  aria-haspopup="true" aria-expanded="false">Shop
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+               Phone
                </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                <a class="dropdown-item" href="#">Samsung</a>
@@ -163,34 +164,34 @@
                Womens Fashion
                </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="#">Swimwear</a>
-               <a class="dropdown-item" href="#">Bottoms</a>
-               <a class="dropdown-item" href="#">Accessories</a>
+                  <a class="dropdown-item" href="#">Swimwear</a>
+                  <a class="dropdown-item" href="#">Bottoms</a>
+                  <a class="dropdown-item" href="#">Accessories</a>
             </li>
          </ul>
          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-               Computer
-               </a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="#">Laptops </a>
-               <a class="dropdown-item" href="#">Ofice Electronics</a>
-               <a class="dropdown-item" href="#">Storage Devices</a>
-            </li>
+         <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+         Computer
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="#">Laptops </a>
+         <a class="dropdown-item" href="#">Ofice Electronics</a>
+         <a class="dropdown-item" href="#">Storage Devices</a>
+         </li>
          </ul>
          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-               Accessories
-               </a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Phone</a>
-                  <a class="dropdown-item" href="#">Consumer</a>
-                  <a class="dropdown-item" href="#">Toys</a>
-            </li>
+         <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+         Accessories
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="#">Phone</a>
+         <a class="dropdown-item" href="#">Consumer</a>
+         <a class="dropdown-item" href="#">Toys</a>
+         </li>
          </ul>
          <ul class="navbar-nav mr-auto">
          <li class="nav-item dropdown">
@@ -207,221 +208,188 @@
          </div>
       </nav>
       </div>
+   
 
-      <div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
+
+
+
+
+<div class="row ">
+          <div class="row list">
+      <div class="col-12 col-lg-9">
+         <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Profile</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">My Events</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Gift</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Shipping Accounts</a>
+         </div>
+      </div>
+      <div class="col-8">
+         <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"></div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"></div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"></div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"></div>
+         </div>
+      </div>
+</ul>
 </div>
-      <main class="main">
-      <div class="container">
-      <div class="row d-none d-lg-block">
+<div class="col-12 col-lg-9">
+   <h1 class="h6">Account Detalis</h1> <hr>
+   
+   <div class="row">
+   <h6 class="col-5 text-secondary">Khajak Ghazaryan</h6> <hr> 
+   <a href="" class="col-2 text-decoration-none text-secondary">Edit</a>
+   <h6 class="col-5 text-secondary">Language $ Settings</h6>
+   <h6 class="col-5 text-secondary">khajak.ghazaryan.y@tumo.org</h6> <hr>
+      <a href="" class="col-2 text-decoration-none text-secondary">Edit</a>
+    <div class="col-5">
+      <select class="custom-select">
+         <option selected="" class="text-secondary">Eng</option>
+  <option value="1" class="text-secondary">ARM</option>
+  <option value="2" class="text-secondary"> RUS</option>
+</select>
+    </div>
+   <h6 class="col-5 text-secondary">*****</h6> <hr>
+   <a href="" class="col-2 text-decoration-none text-secondary">Edit</a>
+   <div class="col-5">
+      <select class="custom-select">
+         <option selected="" class="text-secondary"> $</option>
+  <option selected="" class="text-secondary">&euro;</option>
+  <option value="1" class="text-secondary"></option>
+</select>
+    </div>
+ </div>
+   
+</div>
+<div class="container">
+<div class="row list1">
+  <div class="col-12 col-lg-3 bg-light">
+    <ul class="list-group list-group-flush">
+ 
+ <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">My Cart</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">My Orders</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">My Wish Llist</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Tax Exempt</a>
+</ul>
+  </div>
+  <div class="col-12 col-lg-9">
+    <div class="row">
       <hr>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-      <div class="carousel-item active">
-      <a href="product.html"> 
-      <img class="d-block w-100" src="https://cdn.slashgear.com/wp-content/uploads/2020/06/android-bootloop-wallpaper-2.jpg" alt="First slide">
-      </a>
-      </div>
-      <div class="carousel-item">
-      <a href="product.html"> 
-      <img class="d-block w-100" src="https://cdn.vox-cdn.com/thumbor/fZB9G-w_tXiNIqKxtWIUmDBgoWI=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/66409070/vpavic_200206_3899_still_0004.0.jpg" alt="Second slide">
-      </a>
-      </div>
-      <div class="carousel-item">
-      <a href="product.html"> 
-      <img class="d-block w-100" src="https://handytimes.com/wp-content/uploads/2020/02/galaxy-s20-big__w770.jpg" alt="Third slide">
-      </a>
-      </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-      </a>
-      </div>
-      </div>
-      </div>
-      <div class="row ">
-      <div class="card col-sm-12 col-lg-4" >
-      <a href="product.html">
-      <img class="card-img-top" src="https://media.extra.com/s/aurora/100118934_800/Samsung-Galaxy-A51-128-GB-Blue?locale=en-GB,en-*,*" alt="Card image cap"></a>    
-      <div class="card-body">
-      <h5 class="card-title">Samsung Galaxy S20</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
-      <div class="card-body">
-      <a href="cart.html" class="btn btn-primary">Add to card</a>
-      <a href="#" class="card-link"></a>
-      </div>
-      </div>
-      <div class="card col-sm-12 col-lg-4" >
-      <a href="product.html"> 
-      <img class="card-img-top" src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/75/047843/1.jpg?9425"></a>
-      <div class="card-body">
-      <h5 class="card-title">Samsung Galaxy S20</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
-      <div class="card-body">
-     <a href="cart.html" class="btn btn-primary">Add to card</a>
-      <a href="#" class="card-link"></a>
-      </div>
-      </div>
-      <div class="card col-sm-12 col-lg-4" style=">
-      <a href="product.html> <img class="card-img-top" src="https://cdn57.androidauthority.net/wp-content/uploads/2020/03/Samsung-Galaxy-S20-Hero-1.jpg"></a>
-      <div class="card-body">
-      <h5 class="card-title">Samsung Galaxy S20</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
-      <div class="card-body">
-      <a href="cart.html" class="btn btn-primary">Add to card</a>
-      <a href="#" class="card-link"></a>
-      </div>
-      </div>
-      </div>
-      <div class="card col-sm-12 col-lg-12" >
-      <a href="product.html"> <img class="card-img-top" src="https://cdn57.androidauthority.net/wp-content/uploads/2020/03/Samsung-Galaxy-S20-Hero-1.jpg"></a>
-      <div class="card-body">
-      <h5 class="card-title">Samsung Galaxy S20</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
-      <div class="card-body">
-    <a href="cart.html" class="btn btn-primary">Add to card</a>
-      <a href="#" class="card-link"></a>
-      </div>
-      </div>
-      </div>
-      <div class="row ">
-         <div class="card col-sm-12 col-lg-2" style=>
-            <a href="product.html">  <img class="card-img-top" src="https://media.extra.com/s/aurora/100118934_800/Samsung-Galaxy-A51-128-GB-Blue?locale=en-GB,en-*,*" alt="Card image cap" style=></a>
-            <div class="card-body">
-               <h5 class="card-title">Samsung Galaxy S20</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-               <li class="list-group-item">Cras justo odio</li>
-               <li class="list-group-item">Dapibus ac facilisis in</li>
-               <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-             <a href="cart.html" class="btn btn-primary">Add to card</a>
-               <a href="#" class="card-link"></a>
-            </div>
-         </div>
-         <div class="card col-sm-12 col-lg-2" style=">
-            <a href="product.html>  <img class="card-img-top" src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/75/047843/1.jpg?9425" style=></a>
-            <div class="card-body">
-               <h5 class="card-title">Samsung Galaxy S20</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-               <li class="list-group-item">Cras justo odio</li>
-               <li class="list-group-item">Dapibus ac facilisis in</li>
-               <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-          <a href="cart.html" class="btn btn-primary">Add to card</a>
-               <a href="#" class="card-link"></a>
-            </div>
-         </div>
-         <div class="card col-sm-12 col-lg-2" >
-            <a href="product.htmll"> <img class="card-img-top" src="https://www.91-img.com/pictures/133378-v3-samsung-galaxy-s11-mobile-phone-large-1.jpg?tr=h-330,c-at_max,q-60" alt="Card image cap" 
-               
-               ></a>
-            <div class="card-body">
-               <h5 class="card-title">Samsung Galaxy S20</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-               <li class="list-group-item">Cras justo odio</li>
-               <li class="list-group-item">Dapibus ac facilisis in</li>
-               <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-               <a href="cart.html" class="btn btn-primary">Add to card</a>
-               <a href="#" class="card-link"></a>
-            </div>
-         </div>
-         <div class="card col-sm-12 col-lg-2" >
-            <a href="product.html"> <img class="card-img-top" src="https://www.91-img.com/pictures/133378-v3-samsung-galaxy-s11-mobile-phone-large-1.jpg?tr=h-330,c-at_max,q-60" alt="Card image cap" style=></a>
-            <div class="card-body">
-               <h5 class="card-title">Samsung Galaxy S20</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-               <li class="list-group-item">Cras justo odio</li>
-               <li class="list-group-item">Dapibus ac facilisis in</li>
-               <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-               <a href="cart.html" class="btn btn-primary">Add to card</a>
-               <a href="#" class="card-link"></a>
-            </div>
-         </div>
-         <div class="card col-sm-12 col-lg-2" >
-            <a href="product.html">  <img class="card-img-top" src="https://www.91-img.com/pictures/133378-v3-samsung-galaxy-s11-mobile-phone-large-1.jpg?tr=h-330,c-at_max,q-60" alt="Card image cap" style=></a>
-            <div class="card-body">
-               <h5 class="card-title">Samsung Galaxy S20</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            </a>
-            <ul class="list-group list-group-flush">
-               <li class="list-group-item">Cras justo odio</li>
-               <li class="list-group-item">Dapibus ac facilisis in</li>
-               <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-               <a href="cart.html" class="btn btn-primary">Add to card</a>
-               <a href="#" class="card-link"></a>
-            </div>
-         </div>
-         <div class="card col-sm-12 col-lg-2" >
-            <a href="product.html">  <img class="card-img-top" src="https://www.91-img.com/pictures/133378-v3-samsung-galaxy-s11-mobile-phone-large-1.jpg?tr=h-330,c-at_max,q-60" alt="Card image cap" style=></a>
-            <div class="card-body">
-               <h5 class="card-title">Samsung Galaxy S20</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-               <li class="list-group-item">Cras justo odio</li>
-               <li class="list-group-item">Dapibus ac facilisis in</li>
-               <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-               <a href="cart.html" class="btn btn-primary">Add to card</a>
-               <a href="#" class="card-link"></a>
-            </div>
-         </div>
-      </div>
+      <div class="col-9">
+    <h2 class="text-secondary  h6">Biling and Shiping</h2>
+  </div>
+ 
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-9">
+ <h7 class="text-secondary">Khajak Ghzaryan|Yerevan|ARM03621861|Wilmington DE 19804</h7>
+    </div>
+    <div class="col-3 d-flex justify-content-end">
+      <a href="" class="text-decoration-none text-secondary">Edit</a> 
+      <h6 class="text-secondary">|</h6>
+      <a href="" class="text-decoration-none text-secondary">Remove</a>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-9">
+       <h7 class="text-secondary">Khajak Ghzaryan|Yerevan|ARM03621861|Wilmington DE 19804</h7>
+    </div>
+    <div class="col-3 d-flex justify-content-end">
+      <a href="" class="text-decoration-none text-secondary">Edit</a> 
+        <h6 class="text-secondary">|</h6>
+      <a href="" class="text-decoration-none text-secondary">Remove</a>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-9">
+       <h7 class="text-secondary">Khajak Ghzaryan|Yerevan|ARM03621861|Wilmington DE 19804</h7>
+    </div>
+    <div class="col-3 d-flex justify-content-end">
+      <a href="" class="text-decoration-none text-secondary">Edit</a> 
+       <h6 class="text-secondary">|</h6>
+      <a href="" class="text-decoration-none text-secondary">Remove</a>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-9">
+      <h7 class="text-secondary">Khajak Ghzaryan|Yerevan|ARM03621861|Wilmington DE 19804</h7>
+    </div>
+    <div class="col-3 d-flex justify-content-end">
+      <a href="" class="text-decoration-none text-secondary">Edit</a> 
+        <h6 class="text-secondary">|</h6>
+      <a href="" class="text-decoration-none text-secondary">Remove</a>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-9">
+       <h7 class="text-secondary">Khajak Ghzaryan|Yerevan|ARM03621861|Wilmington DE 19804</h7>
+    </div>
+    <div class="col-3 d-flex justify-content-end">
+      <a href="" class="text-decoration-none text-secondary">Edit</a> 
+     <h6 class="text-secondary">|</h6>
+      <a href="" class="text-decoration-none text-secondary">Remove</a>
+    </div>
+  </div>
+  <hr>
+  <div class="row  ">
+    <h2 class="text-secondary col-12  h6">Payment Options</h2> 
+    <h5 class="text-secondary ">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</h5>
+  </div>
+  <hr>
+  <div class="container">
+  <div class="row">
+    <h2 class="text-secondary col-12 h6 ">Update Email Subristion</h2> 
+    <hr>
+    <h6 class="col-12 ">Email Andress</h6>
+    <input type="email" class="form-control col-6" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div >
+    <button type="button" class="btn btn-outline-primary ">&#8594;</button>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <h2 class="text-secondary col-12  h6">Gift/Rewards Card Balance</h2> 
+     <h8 class="text-secondary col-12 ">Acces your Gift/Rewards card and translation</h8> 
+    <hr>
+    <h6 class="col-12 ">Gift/Reward Card</h6>
+    <input type="email" class="form-control col-6" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div >
+    <button type="button" class="btn btn-outline-primary ">&#8594;</button>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <!-- Footer -->
       <footer class="page-footer font-small unique-color-dark">
          <div style="background-color: #6351ce;">
